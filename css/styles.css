@@ -1,3 +1,13 @@
+/* Base Styles */
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header {
+    font-family: 'Martian Mono', sans-serif;
 }
