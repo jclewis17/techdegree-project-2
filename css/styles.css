@@ -69,3 +69,20 @@ a:visited {
     padding-top: 20px;
     color: #353739;
 }
+
+
+/* Skill Styles */
+
+.skills {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.skill-links {
+    margin-top: 10px;
+    background-color: #fed36e;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-align: center;
+}
