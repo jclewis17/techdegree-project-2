@@ -8,6 +8,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #2d343a;
+}
+
+a:visited {
+    color: #2d343a;
+}
+
+/* Header Styles */
+
 .main-header {
     font-family: 'Martian Mono', sans-serif;
+    text-align: center;
+    color: #2d343a;
+}
+
+.main-nav a {
+    text-decoration: none;
 }
