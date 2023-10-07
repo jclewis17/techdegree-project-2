@@ -22,6 +22,11 @@ a:visited {
     color: #2d343a;
 }
 
+h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
 
 /* Header Styles */
 
@@ -89,4 +94,28 @@ a:visited {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+
+/* Portfolio Styles */
+
+.portfolio {
+    background-color: #c4d1dc;
+    margin-top: 50px;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio-img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.description {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
 }
