@@ -136,3 +136,11 @@ h3 {
     justify-content: space-between;
     font-weight: bold;
 }
+
+.to-top a {
+    transition: color 0.3s ease;
+}
+
+.to-top a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
