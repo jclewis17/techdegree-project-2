@@ -158,4 +158,19 @@ h3 {
   .links {
     background-color: #c4d1dc;
   }
+
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .profile-pic {
+    margin-left: 10px;
+  }
+
+  .about {
+    text-align: left;
+    line-height: 1.5;
+  }
+
 }
