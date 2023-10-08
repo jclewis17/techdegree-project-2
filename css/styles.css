@@ -131,6 +131,11 @@ h3 {
 
 /* Footer Styles */
 
+.footer {
+    border-top: 1px solid #747a7f;
+    margin-top: 10px;
+}
+
 .footer-container {
     display: flex;
     justify-content: space-between;
