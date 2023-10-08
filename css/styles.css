@@ -16,6 +16,7 @@ ul {
 
 a {
     color: #2d343a;
+    text-decoration: none;
 }
 
 a:visited {
@@ -45,10 +46,6 @@ h3 {
 
 .main-nav {
     text-align: center;
-}
-
-.main-nav a {
-    text-decoration: none;
 }
 
 .links {
@@ -130,4 +127,12 @@ h3 {
     padding-top: 30px;
     padding-bottom: 30px;
     border: 2px outset gray;
+}
+
+/* Footer Styles */
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
 }
