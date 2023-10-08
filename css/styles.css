@@ -144,3 +144,18 @@ h3 {
 .to-top a:hover {
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .links {
+    background-color: #c4d1dc;
+  }
+}
