@@ -109,6 +109,7 @@ h3 {
 .portfolio-img {
     margin-left: 10px;
     margin-right: 10px;
+    max-width: 100%;
 }
 
 .description {
@@ -138,6 +139,10 @@ h3 {
 .footer {
     border-top: 1px solid #747a7f;
     margin-top: 10px;
+}
+
+.footer-nav {
+    display: none;
 }
 
 .footer-container {
@@ -184,10 +189,21 @@ h3 {
 
   .portfolio {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .col {
-    flex: 1 50%;
+    flex-basis: 50%;
+    padding-left: 10px;
+    padding-right: 10px;;
+  }
+
+  .to-top {
+    display: none;
+  }
+
+  .footer-nav {
+    display: contents;
   }
 
 }
