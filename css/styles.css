@@ -171,6 +171,7 @@ h3 {
 
   .links {
     background-color: #c4d1dc;
+    justify-content: space-between;
   }
 
   .intro {
@@ -203,7 +204,9 @@ h3 {
   }
 
   .footer-nav {
-    display: contents;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
 }
