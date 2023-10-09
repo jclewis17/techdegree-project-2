@@ -99,7 +99,7 @@ h3 {
 
 .portfolio {
     background-color: #c4d1dc;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #portfolio {
@@ -116,6 +116,10 @@ h3 {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 50px;
+}
+
+#portfolio {
+    margin-top: 50px;
 }
 
 
@@ -176,6 +180,14 @@ h3 {
   .about {
     text-align: left;
     line-height: 1.5;
+  }
+
+  .row {
+    flex-direction: row;
+  }
+
+  .col {
+    flex: 1 50%;
   }
 
 }
