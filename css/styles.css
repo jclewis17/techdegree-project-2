@@ -225,7 +225,8 @@ h3 {
         flex-basis: 33%;
     }
 
-    /* .wide-container {
+    .wide-container {
         display: flex;
+        justify-content: space-between;
     }
-} */
+}
