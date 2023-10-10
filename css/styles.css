@@ -107,8 +107,6 @@ h3 {
 }
 
 .portfolio-img {
-    margin-left: 10px;
-    margin-right: 10px;
     max-width: 100%;
 }
 
@@ -177,6 +175,7 @@ h3 {
   .intro {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
   }
 
   .profile-pic {
@@ -205,8 +204,28 @@ h3 {
 
   .footer-nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+  }
+
+  .footer-links {
+    margin-right: 10px;
+  }
+
+  .footer-links a {
+    transition: color 0.3s ease;
+  }
+
+  .footer-links a:hover {
+    color: rgba(0, 0, 0, 0.5);
   }
 
 }
+
+@media (min-width: 1024px) {
+    .col {
+        flex-basis: 33%;
+    }
+
+    /* .wide-container {
+        display: flex;
+    }
+} */
